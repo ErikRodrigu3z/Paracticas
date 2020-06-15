@@ -11,8 +11,9 @@ namespace String
         static void Main(string[] args)
         {
             string cadena = "a,e,i,o,u, ";
-            cadena = cadena.TrimEnd(' ');
-            cadena = cadena.TrimEnd(',');
+            //quite el espacio y la ,
+            cadena = cadena.TrimEnd(' ').TrimEnd(',');
+           
 
             Console.WriteLine(cadena);
             Console.ReadLine();
