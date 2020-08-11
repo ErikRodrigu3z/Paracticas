@@ -14,6 +14,8 @@ namespace Listas
             List<Conductor> listConductor = new List<Conductor>();
             listConductor.Add(new Conductor() { IdConductor = 1, Nombre = "Erik", Apellido = "Rodriguez" });
             listConductor.Add(new Conductor() { IdConductor = 2, Nombre = "Antonio", Apellido = "Gallegos" });
+            listConductor.Add(new Conductor() { IdConductor = 2, Nombre = "Eduardo", Apellido = "Gallegos" });
+            listConductor.Add(new Conductor() { IdConductor = 2, Nombre = "Manuel", Apellido = "Gomez" });
 
             List<Usuario> listUsuario = new List<Usuario>();
             listUsuario.Add(new Usuario() { IdUsuario = 1, Nombre = "Diego", Apellido = "Perez" });
@@ -45,11 +47,17 @@ namespace Listas
                 ).ToList();
 
 
-            foreach (var item in travelsDto)
-            {
-                Console.WriteLine("Viaje: " + item.IdVIaje + " - Usuario: " + item.NombreUsuario + " - Conductor: " + item.NombreConductor + " - " + item.Estatus);
-            }
+            //foreach (var item in travelsDto)
+            //{
+            //    Console.WriteLine("Viaje: " + item.IdVIaje + " - Usuario: " + item.NombreUsuario + " - Conductor: " + item.NombreConductor + " - " + item.Estatus);
+            //}
+            //Console.ReadLine();
+
+
+            var cond = listConductor.Where(x => x.Nombre.Contains("erik") && x.Apellido.Contains("r"));
+            Console.WriteLine(cond);
             Console.ReadLine();
+
 
 
             //var lstFacturas = new List<Factura>
