@@ -30,12 +30,14 @@ namespace Fechas
             //    Console.WriteLine(date1 +" es mayor que " + date2);
 
             //}
-            
+
             //Console.WriteLine(Assembly.GetEntryAssembly().FullName);
             //Console.WriteLine(DateTime.Now.ToUniversalTime().ToString("R"));
             //Console.WriteLine(DateTime.Now.ToUniversalTime().ToLocalTime().ToString("R"));
             //Console.WriteLine(date3);
             //Console.WriteLine(DateTime.Now.ToLongDateString());
+             
+           
 
 
             //formatos
