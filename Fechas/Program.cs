@@ -16,10 +16,14 @@ namespace Fechas
             //Console.WriteLine("Agrega 24 horas");            
             //Console.WriteLine(DateTime.Now.AddHours(23).AddMinutes(59).AddSeconds(59));
 
-            //DateTime date1 = new DateTime(2020, 4, 29, 16, 28, 0); //"4/30/2020 4:26:24 PM"; //DateTime.Now;
-            //DateTime date2 = new DateTime(2020, 4, 29, 16, 27, 0); //DateTime.Now.AddHours(23).AddMinutes(59).AddSeconds(59);
-            //DateTime date3 = DateTime.UtcNow;
+            DateTime date1 = new DateTime(2020, 10, 29, 16, 28, 0); //"4/30/2020 4:26:24 PM"; //DateTime.Now;
+            DateTime date2 = new DateTime(2020, 10, 29, 16, 40, 0); //DateTime.Now.AddHours(23).AddMinutes(59).AddSeconds(59);
+                                                                    //DateTime date3 = DateTime.UtcNow;
 
+            double time = (date2 - date1).TotalSeconds;
+
+            Console.WriteLine(time);
+            Console.ReadKey();
 
             //if (date1 <= date2)
             //{
@@ -36,8 +40,8 @@ namespace Fechas
             //Console.WriteLine(DateTime.Now.ToUniversalTime().ToLocalTime().ToString("R"));
             //Console.WriteLine(date3);
             //Console.WriteLine(DateTime.Now.ToLongDateString());
-             
-           
+
+
 
 
             //formatos

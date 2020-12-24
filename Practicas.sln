@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "String", "String\String.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection", "Reflection\Reflection.csproj", "{C3455984-DA4C-4E96-A524-4FD1049018A0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ciclos", "Ciclos\Ciclos.csproj", "{C5A3A2F7-D3E0-490F-8389-DD5DD36250B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculoDistancia", "CalculoDistancia\CalculoDistancia.csproj", "{D1479A33-B8EE-45FB-90E5-4CD11F14FEAE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{C3455984-DA4C-4E96-A524-4FD1049018A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3455984-DA4C-4E96-A524-4FD1049018A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3455984-DA4C-4E96-A524-4FD1049018A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5A3A2F7-D3E0-490F-8389-DD5DD36250B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5A3A2F7-D3E0-490F-8389-DD5DD36250B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5A3A2F7-D3E0-490F-8389-DD5DD36250B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5A3A2F7-D3E0-490F-8389-DD5DD36250B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1479A33-B8EE-45FB-90E5-4CD11F14FEAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1479A33-B8EE-45FB-90E5-4CD11F14FEAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1479A33-B8EE-45FB-90E5-4CD11F14FEAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1479A33-B8EE-45FB-90E5-4CD11F14FEAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
